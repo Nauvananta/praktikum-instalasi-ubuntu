@@ -50,7 +50,7 @@
 15. jika sudah semua klik install dan tunggu beberapa saat
 ![20240830_154951](https://github.com/user-attachments/assets/60e131ce-0d52-49e0-8546-14b868c1a7b5)
 
-16. jika sudah semua, masuk lagi ke bios dan di opsi boot kita akan merubah boot priorities ubuntu menjadi yang pertama jadi kita bisa memilih untuk boot ke windows
+16. jika sudah masuk lagi ke bios dan di opsi boot kita akan merubah boot priorities ubuntu menjadi yang pertama jadi kita bisa memilih untuk boot ke windows
     atau ubuntu saat booting pc
 ![20240830_155533](https://github.com/user-attachments/assets/3c61fb61-f6aa-4875-bd85-5ad4d6880604)
 ![20240830_155616](https://github.com/user-attachments/assets/be1e359c-0ea1-4407-8c3c-b3aca70cc0bf)
