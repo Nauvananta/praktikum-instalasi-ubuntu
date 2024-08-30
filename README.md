@@ -1,4 +1,5 @@
 # praktikum-sistem-operasi-SK3B
+- Buatlah laporan proses instalasi di komputer mahasiswa dan tampilkan screenshotnya
 
 1. install linux ubuntu 24.04 dari google
 ![Screenshot 2024-08-30 145559](https://github.com/user-attachments/assets/43d9c676-787a-43b7-9da1-bf8a75b0d08a)
@@ -53,3 +54,32 @@
     atau ubuntu saat booting pc
 ![20240830_155533](https://github.com/user-attachments/assets/3c61fb61-f6aa-4875-bd85-5ad4d6880604)
 ![20240830_155616](https://github.com/user-attachments/assets/be1e359c-0ea1-4407-8c3c-b3aca70cc0bf)
+
+17. selesai
+![Screenshot from 2024-08-30 15-56-56](https://github.com/user-attachments/assets/6e72cffd-97bc-4b8c-a817-4ccc645e0f6a)
+
+
+- Analisalah pada gambar kenapa saat instalasi perlu dipilih "/" pada opsi Mount Point?
+  
+Saat instalasi Ubuntu, memilih "/" sebagai opsi mount point berarti kita mengatur partisi tersebut untuk menjadi root directory dari sistem.
+Direktori "/" adalah tempat utama di mana semua file sistem, aplikasi, dan data pengguna disimpan. Dengan memilih "/" untuk partisi ini, kita memastikan bahwa
+seluruh struktur file sistem Linux akan berada di partisi tersebut
+
+
+- Berikan penjelasan tentang ext4, ext3, swap, ntfs, fat32, btrfs
+
+1. Ext4 adalah sistem file yang sering digunakan di Linux Ext4 menggunakan jurnal yang lebih efisien untuk melindungi data dan mengurangi fragmentasi file
+   sehingga memberikan kecepatan dan stabilitas yang lebih baik
+
+2. Ext3 adalah sistem file Linux yang menggunakan jurnal untuk melindungi data dan mempermudah pemulihan dari kegagalan
+   Ext3 memiliki batasan ukuran file dan kinerja dibandingkan dengan Ext4 yang menawarkan peningkatan dalam kapasitas dan kecepatan
+
+3. Swap adalah ruang di hard drive yang digunakan sebagai tambahan memori ketika RAM penuh memungkinkan sistem untuk menyimpan data yang tidak aktif di RAM ke disk
+   sehingga memori fisik dapat digunakan untuk proses yang lebih penting swap membantu mencegah kehabisan memori meski akses ke swap lebih lambat dibandingkan dengan RAM
+
+4. NTFS adalah sistem file yang dikembangkan oleh Microsoft dan digunakan terutama di Windows NTFS mendukung fitur-fitur canggih seperti izin file, enkripsi,
+   dan kompresi data ini juga dapat menangani file dan partisi yang sangat besar dengan efisien NTFS sering digunakan untuk hard drive dan SSD di komputer Windows tetapi Linux juga dapat membaca dan menulis ke partisi NTFS dengan alat tambahan
+
+5. FAT32 adalah sistem file yang kompatibel dengan banyak sistem operasi dan sering digunakan pada drive USB dan kartu memori dan memiliki batas ukuran file maksimal 4gb dan partisi maksimal 8TB FAT32 menawarkan kompatibilitas luas tanpa fitur canggih seperti enkripsi
+
+6. Btrfs adalah sistem file modern di Linux yang menawarkan fitur seperti snapshot, kompresi, dan cek integritas data Btrfs dirancang untuk menggantikan Ext4 dengan keunggulan dalam manajemen ruang, pemulihan data, dan skalabilitas, mendukung partisi dan file besar dengan efisiensi tinggi
