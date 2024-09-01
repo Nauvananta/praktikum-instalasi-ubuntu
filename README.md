@@ -44,7 +44,7 @@
 13. buat nama akun dan pasword kita
 ![20240830_154916](https://github.com/user-attachments/assets/4575fd05-9494-48c3-b36b-2185f91432d2)
 
-14. pilih zona waktu kita, kita bisa mencarinya secara manual atau ketik kota kita pada kolom atas kanan
+14. pilih zona waktu kita, kita bisa mencarinya secara manual atau ketik kota kita pada kolom atas kiri
 ![20240830_154938](https://github.com/user-attachments/assets/0bc687f6-c234-493f-b3f6-a3c4b2ebf670)
 
 15. jika sudah semua klik install dan tunggu beberapa saat
