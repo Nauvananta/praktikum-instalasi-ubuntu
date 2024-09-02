@@ -1,4 +1,4 @@
-# praktikum-sistem-operasi-SK3B
+# praktikum-instalasi-ubuntu
 - Buatlah laporan proses instalasi di komputer mahasiswa dan tampilkan screenshotnya
 
 1. install linux ubuntu 24.04 dari google
